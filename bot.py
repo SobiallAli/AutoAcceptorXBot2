@@ -19,9 +19,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             "auto_approve_bot",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            api_id=27227762,
+            api_hash=cc9b763a5ebce6e1ed3414c3d805842d,
+            bot_token=8166897584:AAEV3orAMB2TRtPLzZH7pC-UBEzgPLpfTBI,
             plugins=dict(root="plugins"),
             workers=50,
             sleep_threshold=10
@@ -40,7 +40,7 @@ class Bot(Client):
         me = await self.get_me()
         self.username = '@' + me.username
 
-        print('Bot Started Powered By @TechifyBots')
+        print('Bot Started Powered By @Son_Goku_8')
 
     async def stop(self, *args):
         await super().stop()
